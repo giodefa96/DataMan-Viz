@@ -1,6 +1,20 @@
+Precedentemente in locale è stato installato tutto il software per permettere il corretto funzionamento.
+
+1 Permette di far partire il nostro server zooleeper:
+
 $ bin/zookeeper-server-start.sh config/zookeeper.properties
+
+2 Attiva il server di kafka:
 
 $ bin/kafka-server-start.sh config/server.properties
 
+3 Creazione del topic:
 
 $ bin/kafka-topics.sh --create --topic exam --bootstrap-server localhost:9092
+
+4 prova del funzionamento della coda:
+
+$ bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server localhost:9092
+
+
+$ bin/kafka-console-consumer.sh --topic prova --from-beginning --bootstrap-server localhost:9092
