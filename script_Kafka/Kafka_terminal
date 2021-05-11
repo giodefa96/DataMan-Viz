@@ -18,3 +18,7 @@ $ bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server loc
 
 
 $ bin/kafka-console-consumer.sh --topic prova --from-beginning --bootstrap-server localhost:9092
+
+6 Ed infine nel caso si volessero eliminare le infomrazioni contenute all'interno del nostro topic:
+
+$ rm -rf /tmp/kafka-logs /tmp/zookeeper
