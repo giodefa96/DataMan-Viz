@@ -2,4 +2,5 @@ In questa cartella ci sono gli script della varietà, in particolare:
 - Prende i dati da Mongo Atlas e li converte in csv (Atlas_tutto.ipynb), questi sono i titoli (serie tv o film) in classifica ogni giorno dal primo dicembre 2020 al 31 marzo 2021;
 - Integra i csv dei dati in classifica con i dati di IMDb, che contengono i rating per ogni titolo (Integrazione imdb.ipynb);
 - Integra i csv dei dati in classifica con dati trovati su Wikipedia facendo scraping (Integrazione wikipedia.ipynb);
-- Integra i csv risultanti dai dati IMBd e dai dati Wikipedia e rea l'indice di popolarità (Integrazione finale.ipynb).
+- Integra i csv risultanti dai dati IMBd e dai dati Wikipedia e rea l'indice di popolarità (Integrazione finale.ipynb),
+- Prende i dati per le serie storiche dei primi 5 titoli (Top 5 serie storiche.ipynb).
